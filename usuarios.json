@@ -1,0 +1,33 @@
+{
+    "usuarios": [
+      {
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "edad": 25,
+        "email": "juan@gmail.com",
+        "contraseña": "contraseña123"
+      },
+      {
+        "nombre": "María",
+        "apellido": "García",
+        "edad": 30,
+        "email": "maria@gmail.com",
+        "contraseña": "maria456"
+        },
+        {
+        "nombre": "Adriana",
+        "apellido": "Hernandez",
+        "edad": 24,
+        "email": "adriana@gmail.com.com",
+        "contraseña": "adri1998"
+      },
+      {
+        "nombre": "Jesus",
+        "apellido": "Velez",
+        "edad": 27,
+        "email": "jesus@gmail.com.com",
+        "contraseña": "jesus1996"
+      }
+      
+        ]
+  }

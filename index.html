@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
+    <title>BUTTMAN SHOP</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <div class="button-container">
+        <button id="registerButton">Registrarme</button>
+        <button id="loginButton">Iniciar Sesión</button>
+        <button id="viewUsersButton">Ver Usuarios Registrados</button>
+        <div id="registeredUsers" style="display: none;">
+            <h2>Usuarios Registrados</h2>
+            <ul id="usersList"></ul>
+            <button id="VolverAlMenu">Volver</button>
+        </div>
+    </div>  
+    <div class="logincont" id="loginContainer" style="display: none;">
+        <button id="VolverAlMenu">Volver</button>
+        <form id="login">
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" id="email2" name="email" required>
+            </div>
+            <div>
+                <label for="contraseña2">Contraseña</label>
+                <input type="password" id="contraseña2" name="contraseña2" required>
+            </div>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+    <div class="logincont" id="registerContainer" style="display: none;">
+        <button id="VolverAlMenu">Volver</button>
+        <form id="registrarte">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="nombre" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="apellido" id="apellido" name="apellido" required>
+            </div>
+            <div>
+                <label for="Edad">Edad</label>
+                <input type="Edad" id="Edad" name="Edad" required>
+            </div>
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+            </div>
+            <div>
+                <label for="confirmContraseña">Confirmar Contraseña</label>
+                <input type="password" id="confirmContraseña" name="confirmContraseña" required>
+            </div>
+            <button type="submit">Crear Cuenta</button>
+        </form>
+    </div>
+    <div class="welcome-message" id="welcomeMessage" style="display: none;">
+        <p>¡Bienvenido a BUTTMAN SHOP!(shop en construccion, proximamente podrás comprar!)</p>
+    </div>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+</body>
+</html>
